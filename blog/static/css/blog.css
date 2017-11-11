@@ -1,0 +1,21 @@
+h1 {
+    color: #eb8c00;
+    text-align: center;
+    font-family: georgia;
+}
+.content {
+    width: 80%;
+    border: 1px solid #f2f2f2;
+    margin: 0 auto;
+    background: #f2f2f2;
+    padding: 20px;
+}
+.blogs {
+	border-bottom : 1px solid #fff;
+}
+.blogs h3 {
+    font-family: 'Lobster';
+}
+.clear{
+	clear:both;
+}

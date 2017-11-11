@@ -1,0 +1,11 @@
+{% extends "blog/base.html" %}
+	{% block content %}
+		{% for post in posts %}
+			<div class="blogs">
+				<h3>{{post.title}}</h3>
+				<p>{{post.text|linebreaks}}</p>
+				<p>Published : {{post.published_date}}</p>
+			</div>
+			<div class="clear"></div>
+		{% endfor %}
+	{% endblock %}
