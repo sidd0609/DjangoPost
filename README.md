@@ -1,0 +1,2 @@
+# DjangoPost
+DjangoGirls workshop bangalore
